@@ -1,0 +1,123 @@
+a {
+    text-decoration: none;
+}
+
+.midle {
+    background-color: rgba(249, 249, 249, 1);
+}
+
+.info{
+    height: 21px;
+    padding-right: 1150px;
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+.back {
+    height: 24px;
+    padding-right: 1300px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 44px;
+}
+
+.text-catalog::after {
+    content: url(../images/Ellipse\ 15.png);
+    margin-left: 15px;
+    margin-right: 14px;
+}
+
+
+.back::before {
+    content: url(../images/eva_arrow-ios-upward-outline\ \(1\).png);
+    position: relative;
+    top: 2px;
+}
+
+.form-weight {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    padding: 20px 20px 30px 20px;
+    width: 315px;
+    height: 566px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.checkbox {
+    display: none;
+    width: 68px;
+    padding: 12px;
+}
+
+.weight:checked {
+    outline: 2px solid greenyellow; 
+}
+
+.weight:hover {
+    outline: 2px solid greenyellow; 
+}
+
+.weight:focus {
+    outline: 2px solid greenyellow; 
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.more {
+    width: 161px;
+    border-radius: 10px;
+    background-color: rgba(63, 207, 94, 1);
+    border: 0;
+    color: white;
+}
+
+.card-bs {
+    content: url(../images/добавить\ в\ корзину.png);
+}
+
+.cards {
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slider {
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    a:not(:last-child) {
+        margin-right: 25px;
+    }
+    a:active {
+        color: greenyellow;
+    }
+    a:hover {
+        color: greenyellow;
+    }
+    a:focus {
+        color: greenyellow;
+    }
+}
+
+.left {
+    content: url(../images/Arrow\ -\ Down\ 2.png);
+}
+
+.right {
+    content: url(../images/Arrow\ -\ Down\ 4.png);
+}
+
+

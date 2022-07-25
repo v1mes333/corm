@@ -1,0 +1,77 @@
+.header {
+    height: 204px;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 33px 0 30px 0;
+}
+
+.header-up {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 42px;
+    align-items: center;
+}
+
+.img-logo {
+    content: url(../images/лого.png);
+    margin-right: 775px;
+}
+
+.img-phone::before {
+    content: url(../images/carbon_phone.png);
+    margin-right: 9px;
+}
+
+.img-basket {
+    content: url(../images/корзина.png);
+}
+
+.img-pers {
+    content: url(../images/аккаунт.png);
+}
+
+.phone {
+    margin-right: 60px;
+}
+
+.img-basket {
+    margin-right: 15px;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search {
+    background-color: rgba(242, 242, 242, 1);
+    height: 54px;
+    width: 345px;
+    background-image: url(../images/Search.png);
+    background-repeat: no-repeat;
+    background-position: 295px;
+    margin-left: 488px;
+    border: 0;
+}
+
+.menu {
+    width: 485px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.catalog::after {
+    content: url(../images/eva_arrow-ios-upward-outline.png);
+    position: relative;
+    top: 3px;
+    left: 2px;
+}
+
+
+
+
+
+
+
+

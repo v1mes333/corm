@@ -1,0 +1,37 @@
+.footer {
+    margin-top: 100px;
+    height: 255px;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(51, 51, 51, 1);
+    a {
+        color: white;
+    }
+}
+
+.wrapper-footer {
+    width: 1323px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pay {
+    margin-right: 47px;
+}
+
+.vk {
+    content: url(../images/Vector\ \(1\).png);
+}
+
+.inst {
+    content: url(../images/Vector\ \(2\).png);
+}
+
+.footer-phone::before {
+    content: url(../images/carbon_phone\ \(1\).png);
+    position: relative;
+    top: 5px;
+    right: 3px;
+}
