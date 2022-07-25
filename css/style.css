@@ -547,6 +547,7 @@ a {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
+  color: black;
 }
 
 .menu a, .info p {
@@ -555,6 +556,11 @@ a {
   font-weight: 500;
   font-size: 18px;
   line-height: 21px;
+  color: rgb(79, 79, 79);
+}
+
+.info p {
+  color: rgb(189, 189, 189);
 }
 
 .text-back {
@@ -563,6 +569,7 @@ a {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
+  color: rgb(51, 51, 51);
 }
 
 .card h1 {
@@ -571,6 +578,7 @@ a {
   font-weight: 600;
   font-size: 24px;
   line-height: 130%;
+  color: rgb(51, 51, 51);
 }
 
 .card p {
@@ -579,6 +587,7 @@ a {
   font-weight: 400;
   font-size: 16px;
   line-height: 130%;
+  color: rgb(130, 130, 130);
 }
 
 .price {
@@ -587,6 +596,7 @@ a {
   font-weight: 700;
   font-size: 22px;
   line-height: 27px;
+  color: rgb(51, 51, 51);
 }
 
 .form label {
@@ -595,6 +605,7 @@ a {
   font-weight: 500;
   font-size: 18px;
   line-height: 21px;
+  color: rgb(79, 79, 79);
 }
 
 .button {

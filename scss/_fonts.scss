@@ -4,6 +4,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
+    color: black;
 }
 
 .menu a, .info p {
@@ -12,6 +13,11 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
+    color: rgba(79, 79, 79, 1);
+}
+
+.info p {
+    color: rgba(189, 189, 189, 1);
 }
 
 .text-back {
@@ -20,6 +26,7 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
+    color: rgba(51, 51, 51, 1);
 }
 
 .card h1 {
@@ -28,6 +35,7 @@
     font-weight: 600;
     font-size: 24px;
     line-height: 130%;
+    color: rgba(51, 51, 51, 1);
 }
 
 .card p {
@@ -36,6 +44,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 130%;
+    color: rgba(130, 130, 130, 1);
 }
 
 .price {
@@ -44,6 +53,7 @@
     font-weight: 700;
     font-size: 22px;
     line-height: 27px;
+    color: rgba(51, 51, 51, 1);
 }
 
 .form label {
@@ -52,6 +62,7 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
+    color: rgba(79, 79, 79, 1);
 }
 
 .button {
